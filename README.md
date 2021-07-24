@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/release/JiriKursky/Indego.svg)](https://GitHub.com/JiriKursky/Indego_350/releases/) 
+[![GitHub release](https://img.shields.io/github/release/JiriKursky/Indego_350.svg)](https://GitHub.com/JiriKursky/Indego_350/releases/) 
 
 # Indego_350
 Home Assistant Custom Component for Bosch Indego Lawn Mower.
