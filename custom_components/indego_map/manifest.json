@@ -1,0 +1,14 @@
+{
+  "domain": "indego_map",
+  "name": "Bosch Indego Mower 350",
+  "documentation": "https://github.com/JiriKursky/Indego_350",
+  "dependencies": [],
+  "codeowners": [
+    "@jm-73",
+    "@eavanvalkenburg"
+  ],
+  "requirements": [
+    "pyIndego==2.0.26"
+  ],
+  "version": "3.7.1.1"
+}

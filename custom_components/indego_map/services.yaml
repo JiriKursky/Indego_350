@@ -1,0 +1,20 @@
+command:
+  description: Send command to mower. Accepted values are mow, returnToDock and pause
+  fields:
+    command: 
+      description: Command for mower
+      example: "mow"
+smartmowing:
+  description: Enable or disable Smart Mowing. Accepted values are true and false
+  fields:
+    enable: 
+      description: Enable Smart Mow 
+      example: "true"
+update_state:
+  description: Forced to update state  
+download_map:
+  description: Download map into /config/www/ directory, extension will be added as svg
+  fields:
+    filename: 
+      description: Optional filename without extension, default indego_map
+      
