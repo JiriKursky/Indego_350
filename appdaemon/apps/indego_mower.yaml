@@ -8,4 +8,4 @@ indego_mower:
     global_dependencies:
     - globals
     - global_indego
-    - secrets
+    - private
