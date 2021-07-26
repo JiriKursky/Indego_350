@@ -1,0 +1,11 @@
+global_modules:
+    global_indego
+indego_mower:
+    module: indego_mower
+    class: IndegoMower
+    dependencies:
+    - basic_app
+    global_dependencies:
+    - globals
+    - global_indego
+    - secrets
