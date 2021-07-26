@@ -2,11 +2,11 @@
 try:
     from app_framework.utils import BasicApp
     import app_framework.globals as g
-    from app_framework.secrets import Secrets
+    from app_framework.private import Private
 except:
     from utils import BasicApp
     import globals as g
-    from secrets import Secrets
+    from private import Private
     import global_indego as igc
     from helper_tools import MyHelp as h
     from globals_def import constsDef as c, eventsDef as e
@@ -24,7 +24,7 @@ GROUP_CALCULATE = (igc.MAP_0_X, igc.MAP_0_Y, igc.MAP_1_X, igc.MAP_1_Y)
 class IndegoMower(BasicApp):
     def init(self):
         self.log_button = "input_boolean.log_bozena"
-        self.secrets = Secrets(self)
+        self.secrets = Private(self)
         indego_id = self.secrets.get_secret("indego_id")
         if indego_id is None:
             indego_id = "912600505"  # for debug purpose
